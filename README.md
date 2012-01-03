@@ -1,3 +1,20 @@
+## Cucumber?
+
+<a href="http://cukes.info/">Cucumber</a> is a behavior-driven-design tool that allows tests to be written in plain language. <a href="http://habariproject.org/">Habari</a> can use it for user acceptance testing.
+
+### Roles to use in the feature files
+
+Owner: The person who installs and has superuser rights over the site. Does not create content.
+Admin: Another user with superuser rights. Does not create content.
+Author: Content creator.
+User: Authenticated user without superuser or content creation rights (other than commenting).
+Anonymous User: Unauthenticated site visitor using some sort of browser. (This might need a better name. Just 'user'?)
+Robot: Other site 'visitors' such as feed readers.
+
+## How I got it working
+
+Note that if you have any sort of development setup already put together, some to several of the following tasks will already be done.
+
 I downloaded the [Turnkey Linux - LAMP stack](http://www.turnkeylinux.org/lampstack) (for VMWare) and added it to VMWare player. Prior to starting it up I switched its networking to NAT, since my home router doesn't treat bridged hosts well.
 
 
