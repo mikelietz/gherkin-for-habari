@@ -4,12 +4,12 @@
 
 ### Roles to use in the feature files
 
-Owner: The person who installs and has superuser rights over the site. Does not create content.
-Admin: Another user with superuser rights. Does not create content.
-Author: Content creator.
-User: Authenticated user without superuser or content creation rights (other than commenting).
-Anonymous User: Unauthenticated site visitor using some sort of browser. (This might need a better name. Just 'user'?)
-Robot: Other site 'visitors' such as feed readers.
+* Owner: The person who installs and has superuser rights over the site. Does not create content.
+* Admin: Another user with superuser rights. Does not create content.
+* Author: Content creator.
+* User: Authenticated user without superuser or content creation rights (other than commenting).
+* Anonymous User: Unauthenticated site visitor using some sort of browser. (This might need a better name. Just 'user'?)
+* Robot: Other site 'visitors' such as feed readers.
 
 ## How I got it working
 
